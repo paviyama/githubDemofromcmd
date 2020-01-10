@@ -36,6 +36,8 @@ public class LoginPageTest extends TestBase {
 	public void TearDown() throws InterruptedException{
 		Thread.sleep(2000);
 		driver.quit();
+		System.out.println("testing git hub");
+		System.out.println("testing");
 	}
 
 }
